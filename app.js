@@ -6,5 +6,5 @@ class Producto{
     }
 };
 
-const producto=new Producto('hola',10,1999);
-alert(producto);
+const producto=new Producto();
+alert(producto.nombre);
