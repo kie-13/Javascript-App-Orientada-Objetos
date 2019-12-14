@@ -20,10 +20,10 @@ class UI{
     }
 };
 // Eventos DOM
-document.getElementById("formulario-productos").addEventListener('submit', function(){
-    const nombre=getElementById('nombre').value;
-    const precio=getElementById('precio').value;
-    const año=getElementById('año').value;
+document.getElementById("formulario-productos").addEventListener('submit', function(e){
+    const nombre=document.getElementById('nombre').value;
+    const precio=document.getElementById('precio').value;
+    const año=document.getElementById('year').value;
     console.log(nombre,precio,año);
 });
 
