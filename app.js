@@ -6,5 +6,24 @@ class Producto{
     }
 };
 
-const producto=new Producto();
-alert(producto.nombre);
+class UI{
+    añadirProducto(){
+        const producto=new Producto();
+        const ui =new UI(producto);
+
+    }
+    borrarProducto(){
+
+    }
+    mostrar(){
+
+    }
+};
+// Eventos DOM
+document.getElementById("formulario-productos").addEventListener('submit', function(){
+    const nombre=getElementById('nombre').value;
+    const precio=getElementById('precio').value;
+    const año=getElementById('año').value;
+    console.log(nombre,precio,año);
+});
+
